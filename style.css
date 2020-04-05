@@ -32,3 +32,20 @@ section {
 	background: #00f;
 	margin-top: calc(100vh * var(--i));
 }
+
+h2 {
+	position: relative;
+	background: linear-gradient(0deg, #ff0076, #cc00ff, #ffae00, #1fae99, #00f);
+	display: flex;
+	justify-content: center;
+}
+
+h2 span {
+	position: sticky;
+	top: 0;
+	line-height: 100vh;
+	height: 100vh;
+	color: #fff;
+	font-size: 6em;
+	margin-top: calc(100vh * var(--i));
+}
