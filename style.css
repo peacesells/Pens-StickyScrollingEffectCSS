@@ -30,4 +30,5 @@ section {
 	width: 10%;
 	height: 100vh;
 	background: #00f;
+	margin-top: calc(100vh * var(--i));
 }
